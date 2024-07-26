@@ -1,17 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid #ccc;
 }
 
-.row {
-    display: flex;
-    flex: auto;
-    flex-wrap: wrap;
+.square {
+    background-color: white;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
 }
 
-.grid {
-    min-width: 100px;
-    min-height: 100px;
-    background-color: red;
-    border: solid 1px blue;
+.square:hover {
+    background-color: black;
 }
