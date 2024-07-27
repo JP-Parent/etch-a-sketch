@@ -1,10 +1,17 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+}
+
+.grid-set {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 
 .container {
@@ -19,8 +26,4 @@ body {
     background-color: white;
     border: 1px solid lightgray;
     box-sizing: border-box;
-}
-
-.square:hover {
-    background-color: black;
 }
